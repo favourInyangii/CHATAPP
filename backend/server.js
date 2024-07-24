@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import express from "express";
 
-import connectToMongoDB from "./Db/connectToMongoDB.js";
+import connectToMongoDB from "./db/connectToMongoDB.js";
 import authRoutes from "./routes/auth.routes.js";
 
 const app = express();
