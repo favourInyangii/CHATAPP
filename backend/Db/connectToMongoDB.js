@@ -8,6 +8,6 @@ const connectToMongoDB = async () => {
     } catch (error) {
         console.log("error connecting to MongoDB",error.message);
     }
-}
+};
 
 export default connectToMongoDB;
